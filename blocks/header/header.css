@@ -1,9 +1,9 @@
 /* header and nav layout */
 header nav {
   display: grid;
-  grid-template:
+ grid-template:
     'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / 50px 1fr 50px;
+    'sections sections sections' 1fr / 50px 1fr 50px; 
   align-items: center;
   padding: 0 2rem;
   position: fixed;

@@ -6,6 +6,7 @@ main .hero-container > div {
   
 main .hero-container {
     padding: 0;
+    text-align: top;
 }
   
 main .hero {
@@ -15,9 +16,14 @@ main .hero {
 }
 
 main .hero h1 {
-    max-width: 1200px;
+   /* max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
+    */
+    position: absolute;
+    top: 80px;
+    left: 16px;
     color: white;
 }
 
@@ -29,12 +35,12 @@ main .hero picture {
     left: 0;
     bottom: 0;
     right: 0;
-    object-fit: cover;
+    object-fit: fill;
     box-sizing: border-box;
 }
 
 main .hero img {
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
