@@ -1,3 +1,5 @@
+
+
 function createSelect(fd) {
   const select = document.createElement('select');
   select.id = fd.Field;
@@ -155,6 +157,7 @@ async function createForm(formURL) {
       default:
         fieldWrapper.append(createLabel(fd));
         fieldWrapper.append(createInput(fd));
+
     }
 
     if (fd.Rules) {
@@ -168,6 +171,7 @@ async function createForm(formURL) {
     form.append(fieldWrapper);
   });
 
+  
   form.addEventListener('change', () => applyRules(form, rules));
   applyRules(form, rules);
 

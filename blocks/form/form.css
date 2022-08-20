@@ -1,8 +1,8 @@
 main .form {
   background-color: whitesmoke;
-  padding: var(--spacing-m);
+ padding: var(--spacing-m); 
   box-shadow: 0 1px 6px rgb(34 34 34 / 10%);
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 main .form h2 {
@@ -42,12 +42,12 @@ main .form select:hover {
 main .form label {
   width: 100%;
   display: block;
-  font-size: var(--form-font-size-xs);
+  font-size: var(--form-font-size-s);
   line-height: var(--type-body-s-lh);
   padding-bottom: var(--spacing-xs);
   text-transform: uppercase;
   box-sizing: border-box;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 main .form label.required::after {

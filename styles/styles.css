@@ -40,7 +40,8 @@
   /* nav height */
   --nav-height: 64px;
   /* forms label */
-  --form-font-size-xs: 10px;
+  --form-font-size-xs: 10px; 
+  --form-font-size-s: 20px;
 
 
 }
