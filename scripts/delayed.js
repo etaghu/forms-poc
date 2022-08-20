@@ -17,6 +17,8 @@ function fillFormCustomerName(){
   
   //end custom code 
 
+  fillFormCustomerName();
+
 // Core Web Vitals RUM collection
 sampleRUM('cwv');
 
@@ -24,4 +26,4 @@ sampleRUM('cwv');
 // add more delayed functionality here
 
 
-fillFormCustomerName();
+

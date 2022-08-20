@@ -1,6 +1,6 @@
 main .form {
   background-color: whitesmoke;
- padding: var(--spacing-m); 
+  padding: var(--spacing-m); 
   box-shadow: 0 1px 6px rgb(34 34 34 / 10%);
   padding-left: 3%;
 }
@@ -27,7 +27,8 @@ main .form select {
   width: 50%;
   max-width: 50rem;
   box-sizing: border-box;
-  margin-top: 4px;
+  margin-top: 15px;
+  font-size: 1.25rem;
 }
 
 main .form textarea {
@@ -45,7 +46,7 @@ main .form label {
   font-size: var(--form-font-size-s);
   line-height: var(--type-body-s-lh);
   padding-bottom: var(--spacing-xs);
-  text-transform: uppercase;
+  text-transform: uppercase; 
   box-sizing: border-box;
   font-weight: 400;
 }
