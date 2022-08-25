@@ -12,6 +12,8 @@ function fillFormCustomerName(){
   const customerName = urlParams.get('customer');  
   
    input.value = customerName; 
+   input.setAttribute('disabled','disabled');
+   
 }
   
   
@@ -20,7 +22,7 @@ function fillFormCustomerName(){
   fillFormCustomerName();
 
 // Core Web Vitals RUM collection
-sampleRUM('cwv');
+//sampleRUM('cwv');
 
 
 // add more delayed functionality here
